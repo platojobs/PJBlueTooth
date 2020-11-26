@@ -1,0 +1,6 @@
+framework module Pods_BlueToothDev {
+  umbrella header "Pods-BlueToothDev-umbrella.h"
+
+  export *
+  module * { export * }
+}

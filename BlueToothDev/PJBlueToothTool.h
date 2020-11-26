@@ -1,9 +1,14 @@
-# PJBlueTooth
+//
+//  PJBlueToothTool.h
+//  BlueToothDev
+//
+//  Created by Jobs Plato on 2020/11/21.
+//
 
+#import <Foundation/Foundation.h>
 
-### PJBlueToothTool 这个类来处理蓝牙连接外设
+#import "PJDeviceModel.h"
 
-```objc
 
 @protocol PJBlueToothToolDelegate <NSObject>
 
@@ -62,6 +67,3 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
-
-
-```
